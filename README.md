@@ -41,7 +41,7 @@ docker build -t tektutor/ansible-ubuntu ubuntu-ansible
 docker build -t tektutor/ansible-centos centos-ansible
 ```
 
-### Installing Ansible
+### Installing Python 3.8.3
 ```
 sudo yum -y update
 sudo yum -y groupinstall "Development Tools"
