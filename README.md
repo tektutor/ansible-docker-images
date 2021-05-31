@@ -12,3 +12,9 @@ cd ansible-docker-images
 cp /home/jegan/.ssh/id_rsa.pub ubuntu-ansible/authorized_keys
 cp /home/jegan/.ssh/id_rsa.pub centos-ansible/authorized_keys
 ```ubuntu-ansible
+
+### Building Ansible Ubuntu Docker Image
+```
+docker build -t tektutor/ansible-ubuntu ubuntu-ansible
+docker build -t tektutor/ansible-centos centos-ansible
+```
