@@ -11,7 +11,7 @@ The generated public key of that user must be copied into ubuntu-ansible and cen
 cd ansible-docker-images
 cp /home/jegan/.ssh/id_rsa.pub ubuntu-ansible/authorized_keys
 cp /home/jegan/.ssh/id_rsa.pub centos-ansible/authorized_keys
-```ubuntu-ansible
+```
 
 ### Building Ansible Ubuntu Docker Image
 ```
